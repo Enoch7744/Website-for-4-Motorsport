@@ -1,6 +1,6 @@
 .title { 
-  font-size: 100px;
-  background-color: green;
+  font-size: 110px;
+  background-color: red;
 }
 
 ul {
@@ -9,7 +9,7 @@ ul {
   border-style: solid;
   border-color: red;
   border-radius: 50px;
-  /* margin: 10px; */
+  /* margin: 50px; */
   height: 10px;
   width: 97%;
   background-color: rebeccapurple;
@@ -20,27 +20,24 @@ ul {
 }
 
 
+
 div.absolute {
   position: absolute;
   top: 80px;
   right: 0;
   width: 200px;
   height: 20px;
-  border: 3px solid;
-
-}
-
-.body {
-  font-family: 'Times New Roman';
-  background-color: red;
-  margin: 10px;
+  margin: 50px;
   text-align: center;
 }
 
-.alt {
-  color: rgb(1, 1, 10);
-  background-color: red;
+body {
+  font-family: 'Times New Roman';
+  background-color: rgb(118, 151, 252);
+  margin: 50px;
+  text-align: center;
 }
+
 
 h1 {
 font-size: 65px;
@@ -62,12 +59,15 @@ h3 {
  }
 
 a {
-  font-size: 40px;
+  font-size: 25px;
   background-color: gold;
 }
 
 p {
   font-size: 20px;
   color: black;
-  text-align: left;
+  text-align: center;
+  margin: 50px;
+  align-self: center;
+  margin-block-start: 50px;
 }
